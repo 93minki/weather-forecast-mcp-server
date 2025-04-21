@@ -8,8 +8,7 @@ This is a TypeScript-based MCP server that implements a simple notes system. It 
 
 1. `.env` 파일 생성 후 OPENWEATHER_API_KEY=API_KEY
 2. `npm run build` 명령어 실행
-3. `.env` 파일을 build 폴더 내부에 복사
-4. `claude_desktop_config.json` 파일 수정 (빌드 후 생성되는 index.js 파일의 경로)
+3. `claude_desktop_config.json` 파일 수정 (빌드 후 생성되는 index.js 파일의 경로)
 
 ```json
 {
@@ -21,5 +20,3 @@ This is a TypeScript-based MCP server that implements a simple notes system. It 
   }
 }
 ```
-
-npx tsc
